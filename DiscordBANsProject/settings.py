@@ -83,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get("NAME"),
-        'USER': os.environ.get("USER"),
-        'PASSWORD': os.environ.get("NAME"),
+        'USER': "sumidora",
+        'PASSWORD': "pass",
         'HOST': 'localhost',
         'PORT': '3306',
     }
