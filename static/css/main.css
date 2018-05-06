@@ -1,4 +1,6 @@
 body {
+    background: white url("../images/db_preview.png") no-repeat center center;
+    background-attachment: fixed;
     background-size: cover;
-    background: #464646 url("../images/db_preview.png") no-repeat fixed center center;
+    background-color: #464646;
 }
