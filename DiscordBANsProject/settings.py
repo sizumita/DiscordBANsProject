@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'DiscordBANsProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get("NAME"),
-        'USER': os.environ.get("USER"),
-        'PASSWORD': os.environ.get("PASS"),
+        'NAME': "discordbans",
+        'USER': "root",
+        'PASSWORD': "pass",
         'HOST': '',
         'PORT': '',
     }
