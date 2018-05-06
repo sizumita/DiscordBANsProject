@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["bans.discordbans.net", "www.discordbans.net"]
+ALLOWED_HOSTS = ["bans.discordbans.net", "www.discordbans.net", "discordbans.net"]
 
 
 # Application definition
