@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["bans.discordbans.net"]
 
 
 # Application definition
@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get("NAME"),
         'USER': os.environ.get("USER"),
-        'PASSWORD': os.environ.get("NAME"),
+        'PASSWORD': os.environ.get("PASS"),
         'HOST': 'localhost',
         'PORT': '3306',
     }
