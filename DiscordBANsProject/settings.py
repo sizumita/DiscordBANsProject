@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["discordbans.net", "0.0.0.0"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'DiscordBANsProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "discordbans",
-        'USER': "root",
-        'PASSWORD': "pass",
+        'NAME': os.environ.get("NAME"),
+        'USER': os.environ.get("USER"),
+        'PASSWORD': os.environ.get("NAME"),
         'HOST': '',
         'PORT': '',
     }
