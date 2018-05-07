@@ -3,7 +3,7 @@ body {
     /* 画像を常に天地左右の中央に配置 */
   background-position: center center;
   background-size: cover;
-  background-color: black;
+  background-color: #212121;
   background-repeat: no-repeat;
 background-attachment: fixed;
 
@@ -15,6 +15,6 @@ background-attachment: fixed;
         }
 }
 .navbar {
-background-color: gray;
+background-color: #212121;
 border-color: white;
 }
