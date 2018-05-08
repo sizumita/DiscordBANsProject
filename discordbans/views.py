@@ -2,7 +2,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
+from django.views import generic
 
 
-def index(request):
-    return render(request, 'index.html')
+class TopPageView(generic.TemplateView):
+    template_name = "index.html"
